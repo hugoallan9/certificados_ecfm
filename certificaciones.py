@@ -78,7 +78,7 @@ class Reporte():
 		    "\\begin{center}\n"+
 			"\\Large UNIVERSIDAD DE SAN CARLOS DE GUATEMALA   \\\\ \\vskip 0.5mm\n"+
 		    "\\Large ESCUELA DE CIENCIAS FÍSICAS Y MATEMÁTICAS  \\\\  \\vskip 3mm\n" +
-    		"\\Large \\textbf{CONSTANCIA DE APROBACIÓN DE PRUEBA ESPECÍFICA} \\\\ \\vskip 1mm\n"+
+    		"\\Large \\textbf{CONSTANCIA SATISFACTORIA \\\\ PRUEBA ESPECÍFICA DE MATEMÁTICA } \\\\ \\vskip 1mm\n"+
             "NOV " +  str(aprobados.iloc[x]["NOV"]) + "\\\\ \n"+
     		"CUI " +  '{:.0f}'.format(aprobados.iloc[x]["CUI"]) +  "\\\\ \n"+
             "\\vskip 1mm \n" +

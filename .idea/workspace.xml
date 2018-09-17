@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b36072db-b773-4cea-b553-4cf218096585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/certificaciones.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/certificaciones.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/certificaciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/certificaciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primera-oportunidad.csv" beforeDir="false" afterPath="$PROJECT_DIR$/primera-oportunidad.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primera_oportunidad2018.log" beforeDir="false" afterPath="$PROJECT_DIR$/primera_oportunidad2018.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primera_oportunidad2018.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/primera_oportunidad2018.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primera_oportunidad2018.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/primera_oportunidad2018.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/primera_oportunidad2018.tex" beforeDir="false" afterPath="$PROJECT_DIR$/primera_oportunidad2018.tex" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,36 +53,29 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="370358943">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="50" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="50" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/certificaciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="214">
+              <caret line="80" column="91" selection-start-line="80" selection-start-column="91" selection-end-line="80" selection-end-column="91" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
-                <marker date="1536789621397" expanded="true" signature="1915:2085" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3/dist-packages/pandas/core/indexing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20235">
-              <caret line="1372" selection-start-line="1372" selection-end-line="1372" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3/dist-packages/pandas/core/generic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26265">
-              <caret line="1808" selection-start-line="1808" selection-end-line="1808" />
             </state>
           </provider>
         </entry>
@@ -119,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +129,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,9 +155,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/certificaciones.py" />
@@ -187,15 +189,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="25" width="1446" height="878" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1602289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16347177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32756326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32655245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -217,28 +219,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/certificaciones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="214">
+          <caret line="80" column="91" selection-start-line="80" selection-start-column="91" selection-end-line="80" selection-end-column="91" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
-            <marker date="1536789621397" expanded="true" signature="1915:2085" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20235">
-          <caret line="1372" selection-start-line="1372" selection-end-line="1372" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26265">
-          <caret line="1808" selection-start-line="1808" selection-end-line="1808" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/pandas/core/indexing.py" />
+    <entry file="file:///usr/lib/python3/dist-packages/pandas/core/generic.py" />
   </component>
 </project>
