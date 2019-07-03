@@ -2,6 +2,7 @@
 import os
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 class Reporte():
 
@@ -88,7 +89,7 @@ class Reporte():
 	        "\\textbf{Carrera:} \\\\" +
 	        str( self.reconocer_carrera( str(aprobados.iloc[x]["Carrera"]) ) )  + "\\\\ \n" +
             "\\textbf{Fecha de aprobación:} \\\\"+
-            self.fecha_examen +  "\\vskip 10mm \n" +
+            self.formatear_fecha(aprobados.iloc[x]["Fecha aprobacion"]) +  "\\vskip 10mm \n" +
              "\\begin{center} \n" +
  	        "\\rule{5cm}{0.5pt} \\\\ \n" +
  	         str(self.autoridad) + "\\\\ \n" +
@@ -122,13 +123,44 @@ class Reporte():
 	            "\\end{adjustbox}\n"+
                 "\\end{table}\n")
 
+    def formatear_fecha(self, fecha):
+        fechaOb = datetime.strptime(fecha, '%d/%m/%Y')
+        mes = fechaOb.month
+        mes_cadena = ""
+        if( mes == 1):
+            mes_cadena = "enero"
+        if (mes == 2):
+            mes_cadena = "febrero"
+        if (mes == 3):
+            mes_cadena = "marzo"
+        if (mes == 4):
+            mes_cadena = "abril"
+        if (mes == 5):
+            mes_cadena = "mayo"
+        if (mes == 6):
+            mes_cadena = "junio"
+        if (mes == 7):
+            mes_cadena = "julio"
+        if (mes == 8):
+            mes_cadena = "agosto"
+        if (mes == 9):
+            mes_cadena = "septiembre"
+        if (mes == 10):
+            mes_cadena = "octubre"
+        if (mes == 11):
+            mes_cadena = "noviembre"
+        if (mes == 12):
+            mes_cadena = "diciembre"
+
+        return( str( fechaOb.day ) + " de " + mes_cadena + " de " + str( fechaOb.year ) )
+
     def terminar_documento(self):
         self.archivo.write("\\end{document}")
         self.archivo.close()
 
 
-reporte = Reporte("primera_oportunidad2018","31 de agosto de 2018", "Mtr. Edgar Anibal Cifuentes Anléu ")
-reporte.leer_csv("primera-oportunidad")
+reporte = Reporte("ingenieria","18 de enero de 2019", "MSc Edgar Anibal Cifuentes Anléu ")
+reporte.leer_csv("certificados-marzo-2019")
 reporte.escribir_preambulo()
 reporte.escribir_ganadores()
 reporte.terminar_documento()
